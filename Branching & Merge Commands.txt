@@ -1,0 +1,144 @@
+1  cd gitlab2
+    2  yum install git
+    3  git version
+    4  ls
+    5  mkdir gitlab2
+    6  ls
+    7  cd gitlab2/
+    8  git init
+    9  git config --global --edit
+   10  ssh-keygen
+   11  cat /root/.ssh/id_rsa.pub
+   12  clear
+   13  touch merger.py
+   14  ls
+   15  git add.
+   16  git add .
+   17  git commit -m "my 01 commit"
+   18  git remote add origin git@github.com:cloudtechburner/gitlab2.git
+   19  git push origin master
+   20  clear
+   21  ssh Commmands
+   22  git branch
+   23  git branch dev
+   24  git branch
+   25  git checkout dev
+   26  git branch
+   27  touch a.txt b.txt
+   28  git add .
+   29  git commit -m "my first branch dev"
+   30  git status
+   31  git push origin dev
+   32  clear
+   33  git log
+   34  git show --pretty='' --name -only
+   35  git show --pretty=''--name -only
+   36  git show --pretty=''--name-only
+   37  clear
+   38  git log
+   39  git show --pretty='' --name-only e0133798f18781ce
+   40  git show --pretty='' --name-only 8cc0ab052da225
+   41  ls
+   42  rm -rf a.txt b.txt merger.py
+   43  ls
+   44  clear
+   45  git branch\
+   46  git branch
+   47  git branch QA
+   48  git branch
+   49  git checkout QA
+   50  git branch
+   51  touch c.txt d.java
+   52  ls
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "first QA commit"
+   57  git push origin QA
+   58  clear
+   59  git branch
+   60  git branch UAT
+   61  git branch
+   62  git checkout UAT
+   63  touch k.txt l.py
+   64  git add .
+   65  ls
+   66  git status
+   67  git commit -m "my first UAT"
+   68  git log
+   69  git show --pretty='' --name-only edb4246a2944899
+   70  git branch -m uat
+   71  git branch
+   72  git push origin uat
+   73  git branch -d dev
+   74  git branch --all
+   75  git push origin --delete dev
+   76  git branch --all
+   77  git push origin --delete QA
+   78  git push origin --delete uat
+   79  git branch --all
+   80  git push origin --delete uat
+   81  git push origin --delete QA
+   82  git checkout master
+   83  git push origin --delete uat
+   84  git branch -D uat
+   85  git branch -D QA
+   86  git branch
+   87  clear
+   88  top
+   89  clear
+   90  git log
+   91  vi a.sh
+   92  sh a.sh
+   93  vi b.sh
+   94  sh b.sh
+   95  vi c.sh
+   96  sh c.sh
+   97  vi d.sh
+   98  sh d.sh
+   99  vi e.sh
+  100  sh e.sh
+  101  git log
+  102  git log -3
+  103  clear
+  104  cd ..
+  105  cd
+  106  mkdir git-merge-test
+  107  cd git-merge-test
+  108  pwd
+  109  git init
+  110  clear
+  111  git config --global--edit
+  112  git config --global --edit
+  113  touch merge.py
+  114  vi merge.py
+  115  cat merge.py
+  116  git add .
+  117  git commit -m "We are committing the initial content"
+  118  clear
+  119  git checkout -b new_branch_to_merge_later
+  120  git branch
+  121  touch merge.py
+  122  vi merge.py
+  123  cat merge.py
+  124  git add .
+  125  git commit -m "edited the content of merge.py to cause a conflict"
+  126  git checkout master
+  127  git branch
+  128  vi merge.py
+  129  git commit -m "appended content to merge.txt"
+  130  git branch
+  131  git merge new_branch_to_merge_later
+  132
+  133  vi merge.py
+  134  git status
+  135  git add .
+  136  git commit -m "merge conflict solve"
+  137
+  138  ls
+  139  vi merge.py
+  140  git add .
+  141  git commit -m "merge conflict solve"
+  142  git status
+  143  cat merge.py
+  144  history

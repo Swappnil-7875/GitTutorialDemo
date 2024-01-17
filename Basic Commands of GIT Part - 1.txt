@@ -1,0 +1,84 @@
+    0  sudo yum install httpd -y
+    1  clear
+    2  yum install git -y
+    3  git --version
+    4  mkdir cloudgit
+    5  ls
+    6  cd cloudgit
+    7  pwd
+    8  git init
+    9  ls -la
+   10  cd .git
+   11  ls -la
+   12  cd ..
+   13  ls -la
+   14  touch a.java b.java c.java
+   15  ls
+   16  ls -lrt
+   17  git status
+   18  git add .
+   19  git status
+   20  touch d.java e.java f.java
+   21  git status
+   22  git add *.java
+   23  git status
+   24  git commit
+   25  git commit -m "my first comment"
+   26  git config --global --edit
+   27  git remote add cloudtechgit git@github.com:cloudtechburner/cloudtechdemo.git
+   28  git push cloudtechgit
+   29  o push the current branch and set the remote as upstream, use
+   30  copy
+   31  copy git push --set-upstream cloudtechgit master
+   32  git push --set-upstream cloudtechgit master
+   33  ssh-keygen
+   34  cat /root/.ssh/id_rsa.pub
+   35  git push --set-upstream cloudtechgit master
+   36  clear
+   37  history
+   38  clear
+   39  touch a.py b.py c.py d.py
+   40  git status
+   41  git add .
+   42  git status
+   43  git restore --staged c.py d.py
+   44  git status
+   45  rm -rf c.py d.py
+   46  git status
+   47  ls -lrt
+   48  clear
+   49  git log
+   50  git commit -m "my second commit"
+   51  git log
+   52  git push cloudtechgit
+   53  history
+   55  git push cloudtechgit
+   56  history
+   57  clear
+   58  touch a.sh b.js c.py
+   59  ls -ltr
+   60  git add a.sh
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit -m "my third commit"
+   65  git push
+   66  git log
+   67  git revert 589ffcd66ffe94b
+   68  git push
+   69  clear
+   70  touch a.txt b.txt c.txt
+   71  ls -lrt
+   72  git add .
+   73  git status
+   74  git commit -m "my fourth commit"
+   75  git push
+   76  git log
+   77  git revert f4db0bd1e86d
+   78  git push
+   79  git remote add cloudtechgit https://github.com/cloudtechburner/cloudtechdemo.git
+   80  git remote add cloudtechgit2 https://github.com/cloudtechburner/cloudtechdemo.git
+   81  git push cloudtechgit2
+   82  history
+
+

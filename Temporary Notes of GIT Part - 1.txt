@@ -1,0 +1,13 @@
+Java - a.java b.java c.java
+
+Python - a.py b.py c.py
+
+Nodejs - a.js b.js c.js
+
+Working area - In working area we are going to create the file or 
+				update the file.
+
+Staging area - It is a imaginery area where we can not perform any 
+				modification on the file.
+		We will use command "git commit" - to track our files.
+local area - git log
